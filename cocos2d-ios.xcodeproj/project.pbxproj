@@ -322,7 +322,7 @@
 		502C8BE010A661E200D137BA /* CCSpriteFrameCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 502C8BDE10A661E200D137BA /* CCSpriteFrameCache.h */; };
 		502C8BE110A661E200D137BA /* CCSpriteFrameCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 502C8BDF10A661E200D137BA /* CCSpriteFrameCache.m */; };
 		502C8CA510A701D300D137BA /* animations in Resources */ = {isa = PBXBuildFile; fileRef = 502C8C9810A701D300D137BA /* animations */; };
-		50305AF40E40E33200F63373 /* cocos2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 50305AF30E40E33200F63373 /* cocos2d.h */; };
+		50305AF40E40E33200F63373 /* cocos2d.h in Headers */ = {isa = PBXBuildFile; fileRef = 50305AF30E40E33200F63373 /* cocos2d.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5030927C10446E6C005F7AFC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E3876C10446C6E00150883 /* AVFoundation.framework */; };
 		5030927D10446E6C005F7AFC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E3876E10446C6E00150883 /* AudioToolbox.framework */; };
 		5030927E10446E6C005F7AFC /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E3877010446C6E00150883 /* OpenAL.framework */; };
@@ -7887,6 +7887,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50305AF40E40E33200F63373 /* cocos2d.h in Headers */,
 				5018F2690DFDEAFF00C013A5 /* CCAction.h in Headers */,
 				5018F26B0DFDEAFF00C013A5 /* CCNode.h in Headers */,
 				5018F26D0DFDEAFF00C013A5 /* CCDirector.h in Headers */,
@@ -7906,7 +7907,6 @@
 				50F9E8170E1AA34E000E7616 /* ccTypes.h in Headers */,
 				504055B00E3230BD00213FEF /* CCParticleExamples.h in Headers */,
 				506602110E38A70D000B500E /* CCScheduler.h in Headers */,
-				50305AF40E40E33200F63373 /* cocos2d.h in Headers */,
 				501CCFB10E99657C00B86F68 /* OpenGL_Internal.h in Headers */,
 				501CCFB50E99657C00B86F68 /* TGAlib.h in Headers */,
 				50F7B2780F28DE7C00057537 /* CCActionEase.h in Headers */,
